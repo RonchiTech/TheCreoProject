@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.nav{
+    background-image: url(/sources/img/creobg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+    
+}
+.nav-title{
+    float: left;
+    margin: 30px 55px;
+}
+.nav-title a{
+    text-decoration: none;
+    color: #F09D51;
+    font-weight: 400;
+}
+.nav-body{
+    float: right;
+    margin: 35px 55px;
+}
+.nav-body li{
+    display: inline-block;
+    margin: 0 25px;
+    
+}
+.nav-body li a{
+    color: #F09D51;
+    text-decoration: none;
+    
+}
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+.section-body{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    text-transform: uppercase;
+}
+.bigger-font{
+    font-size: 150%;
+    font-weight: 500;
+    color: #F09D51;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
+}
+.smaller-font{
+    font-size: 120%;
+}
